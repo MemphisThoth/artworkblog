@@ -8,9 +8,11 @@
 </head>
 <body>
     <div class="container">
+        {% incldue "partials/header-blog-page.html" %}
         <main>
             {{ content }}
         </main>
+        {% include "partials/footer.html" %}
     </div>
 </body>
 </html>
