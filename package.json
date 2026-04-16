@@ -1,0 +1,31 @@
+{
+  "name": "artworkblog",
+  "version": "1.0.0",
+  "description": "A blog website powered by 11ty.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @1ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "watch:css": "postcss pcss/input.css -o src/assets/styles/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MemphisThoth/artworkblog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MemphisThoth/artworkblog/issues"
+  },
+  "homepage": "https://github.com/MemphisThoth/artworkblog#readme",
+  "dependencies": {
+    "@11ty/eleventy": "github:11ty/eleventy"
+  },
+  "devDependencies": {
+    "postcss": "^8.5.10",
+    "postcss-cli": "^11.0.1",
+    "postcss-import": "^16.1.1",
+    "postcss-preset-env": "^11.2.1"
+  }
+}
