@@ -3,10 +3,22 @@
 .container {
     margin: 0 auto;
     max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    margin-top: 20px;
+    flex-grow: 1;
 }
 
 p + p {
     margin-top: 20px;
+}
+
+footer {
+    margin-bottom: 20px;
 }
 
 @media (width < 960px) {
