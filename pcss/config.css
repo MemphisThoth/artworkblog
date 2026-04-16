@@ -1,0 +1,10 @@
+/* Custom properties */
+
+:root {
+    --font-text: "Montserrat", sans-serif;
+    --brand-font: "Viaoda Libre", serif;
+
+    --color-bg: white;
+    --color-text: black;
+    --color-accent: red;
+}

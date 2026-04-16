@@ -1,0 +1,18 @@
+/* Navigation Styles */
+
+nav {
+    margin: 10px auto;
+    ul {
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    a {
+        color: var(--color-text);
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: color 250ms ease;
+    }
+}

@@ -4,3 +4,5 @@ const config = {
         require("postcss-preset-env")
     ]
 }
+
+module.exports = config;

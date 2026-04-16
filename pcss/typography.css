@@ -1,0 +1,33 @@
+/* typography styles */
+
+html {
+    font-size: 1.1rem;
+}
+
+body {
+    font-family: var(--font-text);
+}
+
+h1,
+h2,
+h3,
+p {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 3.375rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    max-width: 60ch;
+}

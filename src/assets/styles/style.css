@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Viaoda+Libre&display=swap');
+/* link to fonts */
+/* my styles */
+/* Custom properties */
+:root {
+    --font-text: "Montserrat", sans-serif;
+    --brand-font: "Viaoda Libre", serif;
+
+    --color-bg: white;
+    --color-text: black;
+    --color-accent: red;
+}
+/* CSS Resets */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* global styles */
+body {
+    color: black;
+    color: var(--color-text);
+    background-color: white;
+    background-color: var(--color-bg);
+}
+.brand {
+    font-family: "Viaoda Libre", serif;
+    font-family: var(--brand-font);
+}
+/* typography styles */
+html {
+    font-size: 1.1rem;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-text);
+}
+h1,
+h2,
+h3,
+p {
+    font-weight: 300;
+}
+h1 {
+    font-size: 3.375rem;
+}
+h2 {
+    font-size: 2.25rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+p {
+    font-size: 1.1rem;
+    max-width: 60ch;
+}
+/* layout styles */
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+}
+/* Navigation Styles */
+nav {
+    margin: 10px auto;
+}
+nav ul {
+        list-style: none;
+    }
+nav li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+nav a {
+        color: black;
+        color: var(--color-text);
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: color 250ms ease;
+    }
+

@@ -1,0 +1,10 @@
+/* global styles */
+
+body {
+    color: var(--color-text);
+    background-color: var(--color-bg);
+}
+
+.brand {
+    font-family: var(--brand-font);
+}
