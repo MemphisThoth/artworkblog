@@ -8,3 +8,9 @@
 p + p {
     margin-top: 20px;
 }
+
+@media (width < 960px) {
+    body {
+        margin: 10px;
+    }
+}

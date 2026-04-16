@@ -8,3 +8,8 @@ body {
 .brand {
     font-family: var(--brand-font);
 }
+
+header img {
+    border-radius: 10px;
+}
+

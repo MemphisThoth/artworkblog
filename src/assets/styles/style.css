@@ -19,6 +19,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+img {
+    width: 100%;
+}
 /* global styles */
 body {
     color: black;
@@ -29,6 +32,9 @@ body {
 .brand {
     font-family: "Viaoda Libre", serif;
     font-family: var(--brand-font);
+}
+header img {
+    border-radius: 10px;
 }
 /* typography styles */
 html {
@@ -64,6 +70,11 @@ p {
 }
 p + p {
     margin-top: 20px;
+}
+@media (max-width: 959.98px) {
+    body {
+        margin: 10px;
+    }
 }
 /* Navigation Styles */
 nav {
