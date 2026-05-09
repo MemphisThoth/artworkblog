@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+
+  <!-- Drop shadow -->
+  <ellipse cx="51" cy="52" rx="44" ry="44" fill="rgba(0,0,0,0.10)"/>
+
+  <!-- Palette body -->
+  <circle cx="50" cy="50" r="44" fill="#f5ede0"/>
+
+  <!-- Thumb hole -->
+  <ellipse cx="29" cy="69" rx="10" ry="13" fill="#d9c9b4"/>
+  <ellipse cx="29" cy="69" rx="7" ry="9" fill="none" stroke="#c4b09a" stroke-width="1.5"/>
+
+  <!-- Palette rim -->
+  <circle cx="50" cy="50" r="44" fill="none" stroke="#c4a97a" stroke-width="2"/>
+
+  <!-- Paint daubs -->
+  <!-- Crimson -->
+  <ellipse cx="22" cy="35" rx="8" ry="6" fill="#c0392b"/>
+  <ellipse cx="22" cy="35" rx="5" ry="3.5" fill="#e74c3c" opacity="0.7"/>
+
+  <!-- Cadmium Yellow -->
+  <ellipse cx="40" cy="13" rx="8" ry="6" fill="#e6a817"/>
+  <ellipse cx="40" cy="13" rx="5" ry="3.5" fill="#f1c40f" opacity="0.7"/>
+
+  <!-- Cerulean Blue -->
+  <ellipse cx="63" cy="13" rx="8" ry="6" fill="#1a6fba"/>
+  <ellipse cx="63" cy="13" rx="5" ry="3.5" fill="#3498db" opacity="0.7"/>
+
+  <!-- Viridian Green -->
+  <ellipse cx="80" cy="33" rx="8" ry="6" fill="#16855a"/>
+  <ellipse cx="80" cy="33" rx="5" ry="3.5" fill="#27ae60" opacity="0.7"/>
+
+  <!-- Titanium White -->
+  <ellipse cx="84" cy="55" rx="8" ry="6" fill="#e8e8e8" stroke="#ccc" stroke-width="0.8"/>
+  <ellipse cx="84" cy="55" rx="5" ry="3.5" fill="#ffffff" opacity="0.7"/>
+
+  <!-- Burnt Sienna -->
+  <ellipse cx="46" cy="80" rx="8" ry="6" fill="#8b3a10"/>
+  <ellipse cx="46" cy="80" rx="5" ry="3.5" fill="#c0622a" opacity="0.7"/>
+
+  <!-- Paintbrush (rotated ~-42deg, tip toward lower-left) -->
+  <g transform="translate(50,50) rotate(-42)">
+    <!-- Wooden handle -->
+    <rect x="12" y="-4" width="52" height="7" rx="3" fill="#c68642"/>
+    <rect x="12" y="-2" width="52" height="2.5" rx="1" fill="#d4a26a" opacity="0.55"/>
+    <!-- Ferrule -->
+    <rect x="7" y="-5" width="8" height="9" rx="1.5" fill="#a0a0a0"/>
+    <rect x="7" y="-2" width="8" height="3" rx="1" fill="#c8c8c8" opacity="0.5"/>
+    <!-- Bristles -->
+    <ellipse cx="4" cy="0" rx="8" ry="5" fill="#4a3728"/>
+    <ellipse cx="1" cy="0" rx="5" ry="3" fill="#6b4c35"/>
+    <!-- Wet paint tip -->
+    <ellipse cx="-2" cy="0" rx="2.5" ry="2" fill="#e6c040"/>
+  </g>
+
+</svg>
