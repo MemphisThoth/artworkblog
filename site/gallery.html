@@ -1,17 +1,24 @@
----
-permalink: gallery.html
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery | {{ site.name }}</title>
+    <title>Gallery | Art Blog</title>
     <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
     <div class="container">
-        {% include "partials/header.html" %}
+        <header>
+    <h1>Jared&rsquo;s Art Blog</h1>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <img src="assets/images/banner.jpg" alt="">
+</header>
         <div class="gallery">
 
     <!-- 
@@ -62,7 +69,9 @@ permalink: gallery.html
 
   </div>
        
-        {% include "partials/footer.html" %}
+        <footer>
+    <p>Copyright &copy;2026 Jared Perkins</p>
+</footer>
     </div>
 </body>
 </html>

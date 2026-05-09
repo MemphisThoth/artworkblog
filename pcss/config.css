@@ -1,10 +1,18 @@
 /* Custom properties */
 
 :root {
-    --font-text: "Montserrat", sans-serif;
-    --brand-font: "Viaoda Libre", serif;
+    --font-text: "Jost", sans-serif;
+    --brand-font: "Cormorant Garamond", serif;
 
     --color-bg: #c8ccc9;
     --color-text: black;
     --color-accent: red;
+
+      --bg: #f5f1eb;
+      --text: #1a1714;
+      --muted: #7a6f65;
+      --accent: #b8874a;
+      --card-bg: #fdfaf6;
+      --border: #ddd5c8;
+      --shadow: rgba(60, 40, 20, 0.10);
 }
