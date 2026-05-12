@@ -1,0 +1,25 @@
+---
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Error Page | {{ site.data.site.title | raw }}</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+</head>
+<body>
+    {% include header.html %}
+    <div class="flex-container">
+    <div class="error-container">
+        <h1 class="code">404</h1>
+        <p class="message">The page you're looking for doesn't exist or has been moved.</p>
+        <a href="/" class="home-link">Return Home</a>
+    </div>
+    </div>
+    {% include footer.html %}
+</body>
+</html>
