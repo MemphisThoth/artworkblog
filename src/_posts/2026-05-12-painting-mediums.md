@@ -47,7 +47,7 @@ Galkyd Lite Gel, once known as Neo Megilp, makes the paint smooth and silky with
 
 Solvent-Free Gel is great for *en plein air* painting, or painting outdoors. It has no odor or solvent. It dries to a bright, glossy finish. Gamblin says to use it sparingly.
 
-Gamblin also sells a [Cold Wax](https://gamblincolors.com/cold-wax-painting/) medium. COld Wax is beeswax mixed with a small amount of alkyd resin. *Cold* means it can be worked with without needing to heat the wax. It dries by using Gamsol. The wax hardens as it dries. You would use it for *impasto* painting to hold texture and bushmarks.
+Gamblin also sells a [Cold Wax](https://gamblincolors.com/cold-wax-painting/) medium. Cold Wax is beeswax mixed with a small amount of alkyd resin. *Cold* means it can be worked with without needing to heat the wax. It dries by using Gamsol. The wax hardens as it dries. You would use it for *impasto* painting to hold texture and bushmarks.
 
 The company [Michael Harding](https://www.michaelharding.co.uk) sells a range of [Miracle Mediums](https://www.michaelharding.co.uk/the-miracle-medium-range/). They are solvent free, odorless, and plant based.
 
