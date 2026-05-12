@@ -1,0 +1,9 @@
+<header>
+    <h1>Jared&rsquo;s Art Blog</h1>
+    <nav>
+        {% for link in site.data.nav.links %}
+        <a href="{{ link.url }}">{{ link.title }}</a>
+        {% endfor %}
+    </nav>
+    <img src="/assets/images/banner.jpg" alt="A splash of oil paint.">
+</header>

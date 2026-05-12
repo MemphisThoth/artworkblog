@@ -1,24 +1,24 @@
 ---
-permalink: gallery.html
 ---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery | {{ site.name }}</title>
-    <link rel="stylesheet" href="assets/styles/style.css">
-    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <title>Gallery | {{ site.data.site.title }}</title>
+    <link rel="stylesheet" href="/assets/styles/style.css">
 </head>
 <body>
     <div class="container">
-        {% include "partials/header.html" %}
+        {% include header.html %}
+        <main>
         <div class="gallery">
 
     <div class="card">
       <div class="card-img-wrap">
-        <!-- Replace with: <img src="your-image.jpg" alt="Golden Sunset" /> -->
-         <img src="assets/images/gallery/ocean_wave_scaled.jpg" alt="Ocean Wave">
+
+         <img src="/assets/images/gallery/ocean_wave_scaled.jpg" alt="Ocean Wave">
       </div>
       <div class="card-info">
         <div class="card-name">Ocean Wave</div>
@@ -28,7 +28,7 @@ permalink: gallery.html
 
     <div class="card">
       <div class="card-img-wrap">
-        <img src="assets/images/gallery/rocking_chairs_scaled.jpg" alt="Rocking chairs before landscape">
+        <img src="/assets/images/gallery/rocking_chairs_scaled.jpg" alt="Rocking chairs before landscape">
       </div>
       <div class="card-info">
         <div class="card-name">Rocking Chairs</div>
@@ -38,7 +38,7 @@ permalink: gallery.html
 
     <div class="card">
       <div class="card-img-wrap">
-        <img src="assets/images/gallery/snowman_scaled.jpg" alt="Snowman in front of house">
+        <img src="/assets/images/gallery/snowman_scaled.jpg" alt="Snowman in front of house">
       </div>
       <div class="card-info">
         <div class="card-name">Snowman</div>
@@ -47,8 +47,8 @@ permalink: gallery.html
     </div>
     
   </div>
-       
-        {% include "partials/footer.html" %}
+       </main>
+        {% include footer.html %}
     </div>
 </body>
 </html>
