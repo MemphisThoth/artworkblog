@@ -5,7 +5,7 @@ title: Home
 
 <ul>
   {% for post in site.posts %}
-    <li>
+    <li class="animate">
       <a href="{{ post.url }}">{{ post.title }}</a><br>
       Published on: {{ post.date | date: "%B %d, %Y" }} by Jared Perkins<br>
       {{ post.description }}
