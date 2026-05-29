@@ -51,7 +51,7 @@ Currently, I still use [titanium white soft](https://www.dickblick.com/products/
 
 [Yellow Ochre](https://mgraham.com/oil-paints/yellow-ochre-200-oil-paint/) by M. Graham is a bright, earthen yellow. I like it for its warm, yellow color. I would use it earlier in my paintings than cadmiums which dry slower.
 
-[Transparent Red Iron Oxide](https://mgraham.com/oil-paints/yellow-ochre-200-oil-paint/) is a red, earthy color by M. Graham. It is great for red glazes, and has a soft, creamy texture. M. Graham says it has a smooth, glass-like finish when dry.
+[Transparent Red Iron Oxide](https://mgraham.com/oil-paints/transparent-red-iron-oxide-187-oil-paint/) is a red, earthy color by M. Graham. It is great for red glazes, and has a soft, creamy texture. M. Graham says it has a smooth, glass-like finish when dry.
 
 [Burnt Umber](https://mgraham.com/oil-paints/burnt-umber-030-oil-paint/) by M. Graham is a warm, earth brown. It has a semi-opaque quality. I mix it with Ultramarine Blue to make a deep, dark color. A touch of it is good for de-satirizing a mixture of color.
 
