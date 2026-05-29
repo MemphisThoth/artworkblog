@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/2026/05/12/lapis-lazuli.html</loc>
+<loc>/2026/05/12/lapis-lazuli.html</loc>
 <lastmod>2026-05-12T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/2026/05/12/painting-mediums.html</loc>
+<loc>/2026/05/12/painting-mediums.html</loc>
 <lastmod>2026-05-12T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/about.html</loc>
+<loc>/2026/05/28/oil-colors.html</loc>
+<lastmod>2026-05-28T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/gallery.html</loc>
+<loc>/about.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>/gallery.html</loc>
+</url>
+<url>
+<loc>/</loc>
 </url>
 </urlset>
