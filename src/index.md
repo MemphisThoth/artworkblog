@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: "Jared's Art Blog - Oil Painting and Photography"
 ---
 
 <ul>
