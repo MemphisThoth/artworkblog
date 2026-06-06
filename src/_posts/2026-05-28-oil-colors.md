@@ -17,7 +17,7 @@ Walnut oil dries slower than linseed oil. It also doesn't yellow like linseed oi
 
 I use an alkyd resin like [Winsor & Newton Liquin Original](https://www.dickblick.com/products/winsor-newton-liquin-original/?fromSearch=%2Fsearch%2F%3Fsearchword%3Dliquin) or [Gamblin Galkyd](https://www.dickblick.com/products/gamblin-galkyd-mediums/?fromSearch=%2Fsearch%2F%3Fsearchword%3Dglakyd) as my medium. They both make paint dry faster, lower the viscosity, and make transparent glazes. They leave the paint with a glossy finish too. I mention this because they speed up the drying time of my paints, though, I have found the walnut oil still takes longer to dry, especially titanium white.
 
-I recommend that you begin with a small pallette of colors. I started with cadmium yellow light, alizarin crimson, french ultramarine blue, sap green, yellow ochre, and burnt umber. Later, I expanded my pallette to include a wider range of colors. Below are my choices for my current colors.
+I recommend that you begin with a small palette of colors. I started with cadmium yellow light, alizarin crimson, french ultramarine blue, sap green, yellow ochre, and burnt umber. Later, I expanded my palette to include a wider range of colors. Below are my choices for my current colors.
 
 I use [Titanium White Sunflower](https://mgraham.com/oil-paints/titanium-white-sunflower-181/). I bought a small tube to try it out. I noticed it dried faster than the walnut oil version, but not quite as fast as linseed oil. Because it uses sunflower oil as a binder, there is less of a chance it will yellow.
 
@@ -53,12 +53,12 @@ Currently, I still use [titanium white soft](https://www.dickblick.com/products/
 
 [Transparent Red Iron Oxide](https://mgraham.com/oil-paints/transparent-red-iron-oxide-187-oil-paint/) is a red, earthy color by M. Graham. It is great for red glazes, and has a soft, creamy texture. M. Graham says it has a smooth, glass-like finish when dry.
 
-[Burnt Umber](https://mgraham.com/oil-paints/burnt-umber-030-oil-paint/) by M. Graham is a warm, earth brown. It has a semi-opaque quality. I mix it with Ultramarine Blue to make a deep, dark color. A touch of it is good for de-satirizing a mixture of color.
+[Burnt Umber](https://mgraham.com/oil-paints/burnt-umber-030-oil-paint/) by M. Graham is a warm, earth brown. It has a semi-opaque quality. I mix it with Ultramarine Blue to make a deep, dark color. A touch of it is good for desaturating a mixture of color.
 
 [Burnt Sienna](https://www.dickblick.com/products/grumbacher-pre-tested-artists-oil-colors/?Item=00448-8043) by Grumbacher is a warm, brown color. It has a semi-opaque quality. Like Burnt Umber, it can be mixed with Ultramarine Blue for a dark, black color.
 
 [Ultramarine Blue](https://mgraham.com/oil-paints/ultramarine-blue-190-oil-paint/) by M. Graham is a reddish blue. It is my go to blue for most of my applications. I even bought a 150ml tube because I use it so much. Ultramarine Blue is great for making dark colors for shadows. It's also transparent so it works great with glazing. M. Graham says it mixes well with Anthraquinone Red for mixing violets.
 
-These are my oil paints that I use. Again, I am tranistioning to the M. Graham brand, but I entertain the idea of trying out more [Williamsburg](https://goldenartistcolors.com/products/williamsburg-artist-oil-colors) and [Michael Harding](https://michaelharding.co.uk) paints.
+These are my oil paints that I use. Again, I am transitioning to the M. Graham brand, but I entertain the idea of trying out more [Williamsburg](https://goldenartistcolors.com/products/williamsburg-artist-oil-colors) and [Michael Harding](https://michaelharding.co.uk) paints.
 
 I don't recommend buying all of the paints I mentioned above. Most of these are convenience colors, but I tried to describe the reason I bought them. A smaller range of colors is best when starting out. Like warm and cool versions of the primary colors.

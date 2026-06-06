@@ -16,6 +16,6 @@ I like a variety of subjects in my artwork. I've painted landscapes, flowers, st
 
 This website was originally built with [11ty](https://11ty.dev), and then [Metalsmith](https://metalsmith.io), but I finally settled on [Jekyll](https://jekyllrb.com).
 
-Jekyll is a static site generator built on the ruby programming language. Fortunatley, you don't need to know how to program ruby. I chose it because it has been around for quite awhile, and there is a large community of developers who use it. There are themes you can use to style your Jekyll site, but I decided to create my own styling.
+Jekyll is a static site generator built on the ruby programming language. Fortunately, you don't need to know how to program ruby. I chose it because it has been around for quite awhile, and there is a large community of developers who use it. There are themes you can use to style your Jekyll site, but I decided to create my own styling.
 
 This website is stored in a github repository, and it is hosted by [Cloudflare](https://www.cloudflare.com). All I had to do was create an account and buy a domain name.
