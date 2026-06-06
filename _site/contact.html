@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Jared&rsquo;s Art Blog</title>
+    <link rel="stylesheet" href="/assets/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+    <h1>Jared&rsquo;s Art Blog</h1>
+    <nav>
+        
+        <a href="/">Home</a>
+        
+        <a href="/about/">About</a>
+        
+        <a href="/gallery/">Gallery</a>
+        
+        <a href="/contact/">Contact</a>
+        
+    </nav>
+    <img src="/assets/images/banner.jpg" alt="A splash of oil paint.">
+</header>
+        <main>
+            <form action="https://api.webf3forms.com/submit" method="post" id="contact">
+
+                <input type="hidden" name="access_key" value="0d1dc04a-654f-4663-bbd1-0d40c2908f0c">
+                <input type="hidden" name="subject" value="New Submission from Web3Forms">
+                <input type="hidden" name="redirect" value="https://jaredsartblog.net/success.html">
+
+                <h3>Contact Me</h3>
+                <fieldset>
+                    <input placeholder="Your name" name="name" type="text" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Email Address" name="email" type="email" required>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Type your message here..." name="message"></textarea>
+                </fieldset>
+                <div class="h-captcha" data-captcha="true"></div>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit">Submit</button>
+                </fieldset>
+            </form>
+        </main>
+        
+<footer>
+    <p>Copyright &copy;2026 Jared Perkins</p>
+</footer>
+    </div>
+<script src="https://web3forms.com/client/script.js" async defer></script>
+</body>
+</html>

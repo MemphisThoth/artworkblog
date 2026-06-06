@@ -304,6 +304,101 @@ header p {
         transform: translateY(0);
     }
 }
+/* Contact Form Styles */
+#contact {
+    background-color: #f9f9f9;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.24);
+    max-width: 420px;
+    margin: 0 auto;
+}
+#contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+fieldset {
+    border: medium none;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact textarea:hover {
+    transition: border-color 300ms ease-in-out;
+    border: 1px solid #aaa;
+}
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background-color: #888;
+    color: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+#contact button[type="submit"]:hover {
+    background-color: Red;
+    transition: background-color 300ms ease-in-out;
+}
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+}
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+::-webkit-input-placeholder {
+    color: #888;
+}
+:-moz-placeholder {
+    color: #888;
+}
+::-moz-placeholder {
+    color: #888;
+}
+:-ms-input-placeholder {
+    color: #888;
+}
+/* Success page styles */
+.center-flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center-flex-container a {
+    border: 1px solid black;
+    color: black;
+    margin-top: 10px;
+    padding: 5px 10px;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    transition: background-color 300ms ease;
+}
+.center-flex-container a:hover {
+    background-color: red;
+    border: none;
+}
 .animate {
     visibility: visible;
     animation-fill-mode: both;
