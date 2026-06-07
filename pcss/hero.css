@@ -1,0 +1,16 @@
+/* Hero styles */
+
+.hero {
+    background: linear-gradient(
+        to bottom,
+        var(--fog-blue-gray),
+        var(--titanium-white)
+    );
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+.hero-inner {
+    max-width: 600px;
+    margin: 0 auto;
+}

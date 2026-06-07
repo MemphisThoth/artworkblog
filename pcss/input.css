@@ -1,7 +1,5 @@
-/* link to fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* my styles */
 @import "config.css";
 
 @import "reset.css";
@@ -9,12 +7,9 @@
 @import "typography.css";
 
 @import "layout.css";
-@import "navigation.css";
 
-@import "gallery.css";
-@import "error.css";
-
+@import "components.css";
+@import "hero.css";
+@import "blog.css";
+@import "footer.css";
 @import "contactform.css";
-@import "success.css";
-
-@import "animate.css";

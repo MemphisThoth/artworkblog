@@ -1,0 +1,97 @@
+---
+title: Home
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title}} | {{ site.data.site.title | raw }}</title>
+    {% seo %}
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+</head>
+<body>
+    {% include header.html %}
+    <header class="hero">
+        <div class="hero-inner">
+            <h1>Jared’s Art Blog</h1>
+            <p>Oil paintings, Watercolor, and photography. </p>
+            <a href="/gallery" class="button">View the Gallery</a>
+        </div>
+    </header>
+
+    <section class="intro">
+        <div class="container">
+            <h2>Hi, I'm Jared.</h2>
+            <p>I am an artist. I paint and photograph the many things that inspire me, and I want to share my knowledge with you.
+            </p>
+            <a href="/about" class="button secondary">About Me</a>
+        </div>
+    </section>
+    <section class="featured">
+        <div class="container feature-grid">
+            <div class="featured-image">
+                <!--Painting Image-->
+                <img src="/assets/images/gallery/ocean_wave_scaled.jpg" alt="Featured painting">
+            </div>
+            <div class="featured-info">
+                <h2>Ocean Wave</h2>
+                <p><strong>Medium:</strong> Oil on canvas<br>
+                <strong>Size:</strong> 24x18<br>
+                <strong>Year:</strong> 2026
+                </p>
+                <p>A short story about the piece goes here - what inspired it,etc.</p>
+                <a href="/gallery" class="button">View Full Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Blog preview-->
+    <section class="blog-preview">
+        <div class="container">
+            <h2>Latest Posts</h2>
+            <div class="grid">
+                {% for post in site.posts limit:3 %}
+                <article class="post-card">
+                    {% if post.thumbnail %}
+                    <img src="{{ post.thumbnail }}" alt="{{ post.title }}">
+                    {% endif %}
+                    <h3>{{ post.title }}</h3>
+                    {% if post.description %}
+                    <p>{{ post.description | strip_html | truncate: 140 }}</p>
+                    {% else %}
+                    <p>{{ post.content | strip_html | truncate: 140 }}</p>
+                    {% endif %}
+                    <a href="{{ post.url }}">Read more</a>
+                </article>
+                {% endfor %}
+            </div>
+            <a href="/blog" class="button secondary">View All Posts</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-grid">
+            <div>
+                <h4>About</h4>
+                <a href="/about">About</a>
+            </div>
+            <div>
+                <h4>Gallery</h4>
+                <a href="/gallery">Paintings</a>
+            </div>
+            <div>
+                <h4>Blog</h4>
+                <a href="/blog">All Posts</a>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <a href="/contact">Email Me</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; Jared Perkins - All artwork and writng &copy; their respective years</p>
+    </footer>
+</body>
+</html>

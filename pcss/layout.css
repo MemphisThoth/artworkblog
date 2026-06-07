@@ -1,28 +1,15 @@
-/* layout styles */
+/* Layout Styles */
 
 .container {
+    max-width: var(--max-width);
     margin: 0 auto;
-    max-width: 960px;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    padding: 2rem;
 }
 
-main {
-    margin-top: 20px;
-    flex-grow: 1;
-}
-
-p + p {
-    margin-top: 20px;
-}
-
-footer {
-    margin-bottom: 20px;
-}
-
-@media (width < 960px) {
-    body {
-        margin: 10px;
-    }
+.intro {
+    background-color: var(--granite-neutral);
+    padding: 4rem 0;
+    box-shadow: var(--shadow);
+    margin-top: -2rem;
+    border-radius: var(--radius);
 }

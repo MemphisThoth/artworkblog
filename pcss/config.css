@@ -1,18 +1,31 @@
-/* Custom properties */
+/* Custom Properties Styles */
 
 :root {
-    --font-text: "Jost", sans-serif;
-    --brand-font: "Cormorant Garamond", serif;
-
-    --color-bg: #c8ccc9;
-    --color-text: black;
-    --color-accent: red;
-
-      --bg: #f5f1eb;
-      --text: #1a1714;
-      --muted: #7a6f65;
-      --accent: #b8874a;
-      --card-bg: #fdfaf6;
-      --border: #ddd5c8;
-      --shadow: rgba(60, 40, 20, 0.10);
+    /* Brand Colors */
+    --cobalt-teal: #4fb7c5;
+    --ultramarine-blue: #3f4a8a;
+    --ultramarine-violet: #6e5a9e;
+    /* Earth Tones */
+    --yellow-oxide: #c49a5a;
+    --raw-umber: #6b5846;
+    --burnt-umber: #5a3e2b;
+    /* Neutrals */
+    --titanium-white: #f5f5f2;
+    --granite-neutral: #d7d3cc;
+    --fog-blue-gray: #c8d2d8;
+    /* Text */
+    --text-main: var(--raw-umber);
+    --text-heading: var(--ultramarine-blue);
+    /* UI */
+    --button-bg: var(--cobalt-teal);
+    --button-hover: var(--yellow-oxide);
+    --card-bg: var(--granite-neutral);
+    --footer-bg: var(--burnt-umber);
+    /* Layout */
+    --max-width: 900px;
+    --radius: 8px;
+    --shadow: 0 4px 12px rgba(0,0,0,0.08);
+    /* Typography */
+    --font-body: "Jost", sans-serif;
+    --font-heading: "Cormorant Garamond", serif;
 }

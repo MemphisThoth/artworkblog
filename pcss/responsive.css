@@ -1,0 +1,9 @@
+/* Media Queries */
+
+@media (max-width: 800px) {
+    .featured-grid,
+    .grid,
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+}

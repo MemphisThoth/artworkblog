@@ -2,7 +2,7 @@
 layout: default
 title: "Jared's Art Blog - Oil Painting and Photography"
 ---
-
+<div class="container">
 <ul>
   {% for post in site.posts %}
     <li class="animate">
@@ -13,3 +13,4 @@ title: "Jared's Art Blog - Oil Painting and Photography"
     </li>
   {% endfor %}
 </ul>
+</div>
