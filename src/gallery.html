@@ -1,54 +1,49 @@
 ---
+title: Gallery
 ---
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery | {{ site.data.site.title }}</title>
+    <title>{{ page.title }} | {{ site.data.site.title | raw }}</title>
+    {% seo %}
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
     <link rel="stylesheet" href="/assets/styles/style.css">
 </head>
 <body>
-    <div class="container">
-        {% include header.html %}
-        <main>
-        <div class="gallery">
-
-    <div class="card">
-      <div class="card-img-wrap">
-
-         <img src="/assets/images/gallery/ocean_wave_scaled.jpg" alt="Ocean Wave">
-      </div>
-      <div class="card-info">
-        <div class="card-name">Ocean Wave</div>
-        <div class="card-type">18x24" Oil on Canvas<br>2026</div>
-      </div>
+{% include header.html %}
+<div class="container">
+<section class="gallery">
+<div class="gallery-grid">
+  {% for painting in site.paintings %}
+    <div class="gallery-item">
+      <img 
+        src="{{ painting.thumbnail }}" 
+        data-full="{{ painting.full }}"
+        alt="{{ painting.title }}"
+        class="lightbox-trigger"
+      >
+      <p class="caption">{{ painting.title }}<br>{{ painting.size}} {{ painting.medium }}<br>
+        {{ painting.year }}<br>
+      {{ painting.type }} - {{ painting.source }}<br>{{ painting.description }}
+      </p>
     </div>
+  {% endfor %}
+</div>
+</section>
+</div>
 
-    <div class="card">
-      <div class="card-img-wrap">
-        <img src="/assets/images/gallery/rocking_chairs_scaled.jpg" alt="Rocking chairs before landscape">
-      </div>
-      <div class="card-info">
-        <div class="card-name">Rocking Chairs</div>
-        <div class="card-type">18x24" Oil on Canvas<br>2025</div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-img-wrap">
-        <img src="/assets/images/gallery/snowman_scaled.jpg" alt="Snowman in front of house">
-      </div>
-      <div class="card-info">
-        <div class="card-name">Snowman</div>
-        <div class="card-type">16x20" Oil on Canvas<br>2025</div>
-      </div>
-    </div>
-    
-  </div>
-       </main>
-        {% include footer.html %}
-    </div>
+<!--Lightbox-->
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img src="" alt="" class="lightbox-image">
+    <div class="lightbox-caption"></div>
+    <span class="prev">&#10094;</span>
+    <span class="next">&#10095;</span>
+</div>
+{% include footer.html %}
+<script src="/assets/scripts/lightbox.js"></script>
+<script src="/assets/scripts/navtoggle.js"></script>
 </body>
 </html>

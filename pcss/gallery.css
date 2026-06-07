@@ -1,0 +1,69 @@
+/* Gallery grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.gallery-item img {
+  cursor: pointer;
+  border-radius: var(--radius);
+  transition: transform .2s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.03);
+}
+
+/* Lightbox overlay */
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 9999;
+}
+
+.lightbox.open {
+  display: flex;
+}
+
+.lightbox-image {
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.lightbox-caption {
+  color: var(--titanium-white);
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+/* Close button */
+.lightbox .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2.5rem;
+  color: var(--titanium-white);
+  cursor: pointer;
+}
+
+/* Arrows */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  font-size: 3rem;
+  color: var(--titanium-white);
+  cursor: pointer;
+  padding: 1rem;
+  user-select: none;
+}
+
+.prev { left: 30px; }
+.next { right: 30px; }
