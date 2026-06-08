@@ -23,6 +23,8 @@ Once the grid is made, I use it to help sketch the reference, and increase the s
 
 ## The Rule of Thirds
 
+![rule of thirds diagram](/assets/images/composition/rule-of-thirds.svg)
+
 One way to layout your composition is to use the rule of thirds. This rule means you divide your painting or photograph by making two parallel lines to the top and bottom. Then, you make two perpendicular lines. These lines are equally spaced.
 
 The idea is to place your main subject, your focus of the image, where the lines intersect. This rule makes your subject more interesting by not having it right in the center. 
@@ -52,6 +54,8 @@ It's important to have lines lead into the subject of your painting or photograp
 As an example, you might have a road disappearing into the background of your artwork. The viewer will pick up on this. 
 
 ## The Phi Grid
+
+![phi grid diagram](/assets/images/composition/phi-grid.svg)
 
 Like the rule of thirds, the phi grid divides the artwork into thirds, but the center squares are closer than the outer squares. 
 

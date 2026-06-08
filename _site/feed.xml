@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://jaredsartblog.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jaredsartblog.net/" rel="alternate" type="text/html" /><updated>2026-06-08T07:53:45-04:00</updated><id>https://jaredsartblog.net/feed.xml</id><title type="html">Jared’s Art Blog</title><subtitle>A blog about oil painting, watercolor, and photography by Jared Perkins</subtitle><author><name>Jared Perkins</name></author><entry><title type="html">Composition in Art</title><link href="https://jaredsartblog.net/2026/06/05/composition.html" rel="alternate" type="text/html" title="Composition in Art" /><published>2026-06-05T00:00:00-04:00</published><updated>2026-06-05T00:00:00-04:00</updated><id>https://jaredsartblog.net/2026/06/05/composition</id><content type="html" xml:base="https://jaredsartblog.net/2026/06/05/composition.html"><![CDATA[<h1 id="composition-in-art">Composition in Art</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://jaredsartblog.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jaredsartblog.net/" rel="alternate" type="text/html" /><updated>2026-06-08T08:30:38-04:00</updated><id>https://jaredsartblog.net/feed.xml</id><title type="html">Jared’s Art Blog</title><subtitle>A blog about oil painting, watercolor, and photography by Jared Perkins</subtitle><author><name>Jared Perkins</name></author><entry><title type="html">Composition in Art</title><link href="https://jaredsartblog.net/2026/06/05/composition.html" rel="alternate" type="text/html" title="Composition in Art" /><published>2026-06-05T00:00:00-04:00</published><updated>2026-06-05T00:00:00-04:00</updated><id>https://jaredsartblog.net/2026/06/05/composition</id><content type="html" xml:base="https://jaredsartblog.net/2026/06/05/composition.html"><![CDATA[<h1 id="composition-in-art">Composition in Art</h1>
 
 <p>Composition is arranging the elements in your painting or photograph in a meaningful way. There are some rules you should follow, yet artists say some rules are meant to be broken.</p>
 
@@ -15,6 +15,8 @@
 <p>Once the grid is made, I use it to help sketch the reference, and increase the size of it according to the grid. Sometimes, I will make smaller squares inside the larger squares when I need to add an important detail.</p>
 
 <h2 id="the-rule-of-thirds">The Rule of Thirds</h2>
+
+<p><img src="/assets/images/composition/rule-of-thirds.svg" alt="rule of thirds diagram" /></p>
 
 <p>One way to layout your composition is to use the rule of thirds. This rule means you divide your painting or photograph by making two parallel lines to the top and bottom. Then, you make two perpendicular lines. These lines are equally spaced.</p>
 
@@ -45,6 +47,8 @@
 <p>As an example, you might have a road disappearing into the background of your artwork. The viewer will pick up on this.</p>
 
 <h2 id="the-phi-grid">The Phi Grid</h2>
+
+<p><img src="/assets/images/composition/phi-grid.svg" alt="phi grid diagram" /></p>
 
 <p>Like the rule of thirds, the phi grid divides the artwork into thirds, but the center squares are closer than the outer squares.</p>
 
