@@ -14,6 +14,8 @@ I have done my best to give my personal opinions on materials and techniques abo
 
 I like a variety of subjects in my artwork. I've painted landscapes, flowers, still life, seascapes, buildings, and portraits.
 
+I am still a student, so some of the pictures in my gallery are studies of other artist's work. They are for my learning, but each of them are slightly different from my reference. I don't intend to distribute or sell these.
+
 This website was originally built with [11ty](https://11ty.dev), and then [Metalsmith](https://metalsmith.io), but I finally settled on [Jekyll](https://jekyllrb.com).
 
 Jekyll is a static site generator built on the ruby programming language. Fortunately, you don't need to know how to program ruby. I chose it because it has been around for quite awhile, and there is a large community of developers who use it. There are themes you can use to style your Jekyll site, but I decided to create my own styling.
