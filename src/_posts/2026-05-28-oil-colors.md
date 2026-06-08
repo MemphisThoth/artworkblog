@@ -19,44 +19,82 @@ I use an alkyd resin like [Winsor & Newton Liquin Original](https://www.dickblic
 
 I recommend that you begin with a small palette of colors. I started with cadmium yellow light, alizarin crimson, french ultramarine blue, sap green, yellow ochre, and burnt umber. Later, I expanded my palette to include a wider range of colors. Below are my choices for my current colors.
 
+## Titanium White
+![M. Graham titanium white sunflower](/assets/images/oilcolors/titanium-white-sunflower.jpg)
 I use [Titanium White Sunflower](https://mgraham.com/oil-paints/titanium-white-sunflower-181/). I bought a small tube to try it out. I noticed it dried faster than the walnut oil version, but not quite as fast as linseed oil. Because it uses sunflower oil as a binder, there is less of a chance it will yellow.
 
 Currently, I still use [titanium white soft](https://www.dickblick.com/products/grumbacher-pre-tested-artists-oil-colors/?Item=00448-1324) Grumbacher Pre-tested oil paints in a large, 150ml tube. I am moving away from it because it was very oily, and I'm not the only person I know with that problem.
 
+## Cadmium Yellow Light
+![Grumbacher Cadmium Yellow Light](/assets/images/oilcolors/cadmium-yellow-light.jpg)
 [Cadmium Yellow Light](https://www.dickblick.com/products/grumbacher-pre-tested-artists-oil-colors/?Item=00448-4633) by Grubmacher is a strong, opaque yellow paint. I find it to be a middle of the road yellow color. Cadmium paints tend to dry slowly.
 
+## Bismuth Yellow
+![Grumbacher Bismuth Yellow](/assets/images/oilcolors/bismuth-yellow.jpg)
 [Bismuth Yellow](https://www.dickblick.com/products/grumbacher-pre-tested-artists-oil-colors/?Item=00448-4613) by Grumbacher is more transparent than cadmium yellow light. It is a cooler yellow too. 
 
+## Anthraquinone Red
+![M. Graham Anthraquinone Red](/assets/images/oilcolors/anthraquinone-red.jpg)
 [Anthraquinone Red](https://mgraham.com/oil-paints/anthraquinone-red-014-oil-paint/) by M. Graham is a cool red compared to a warmer cadmium red. It is also known as permanent alizarin crimson. Alizarin Crimson is a fugitive color that can lighten over time. Anthraquinone red is a more lightfast choice. It's a transparent color like alizarin crimson too.
 
+## Naples Yellow Italian
+![Williamsburg Naples Yellow Italian](/assets/images/oilcolors/naples-yellow-italian.jpg)
 [Naples Yellow Italian](https://goldenartistcolors.com/products/williamsburg-artist-oil-colors-naples-yellow-italian) by Williamsburg is the only tube of oil paint by Williamsburg that I own. Williamsburg Oil Paints from Golden are highly regarded as well. The M. Graham version uses Hansa Yellow, Titanium White, and Burnt Senna. The Williamsburg paint uses Titanium White, Chrome Antimony Titante Yellow, and Cadmium Yellow Medium. Originally, I was looking for the [Michael Harding](https://www.michaelharding.co.uk/) for the fact that it had two pigments. However, the color was unavailable on [Dick Blick](https://www.dickblick.com). So, I went with Williamsburg because it used the same Chrome Antimony Titante Yellow. Or, at least I thought so. Anyway, Naples Yellow Italian is a light, opaue color that I would use to warm up my mixtures without making them pastel like Titanium White would.
 
+## Naphthol Red
+![M. Graham Naphthol Red](/assets/images/oilcolors/naphthol-red.jpg)
 [Naphthol Red](https://mgraham.com/oil-paints/naphthol-red-120-oil-paint/) by M. Graham is warmer than my Anthraquinone Red. It is similar to Cadmium Red Light, but doesn't cost as much. It dries a little faster too, and is semi-opaque.
 
+## Turquoise
+![M. Graham Turquoise](/assets/images/oilcolors/turquoise.jpg)
 [Turquoise](https://mgraham.com/oil-paints/turquoise-189-oil-paint/) is a greenish blue by M. Graham. It makes great transparent blue glazes. If you mix it with Anthraquinone Red, it will make an interesting dark color. Turquoise is an interesting color I think.
 
+## Cobalt Teal
+![M. Graham Cobalt Teal](/assets/images/oilcolors/cobalt-teal.jpg)
 [Cobalt Teal](https://mgraham.com/oil-paints/cobalt-teal-097/) by M. Graham is the closest you can get to a cyan color. It's a greenish, opaque blue. Also, it's rather expensive so I would use it only when I am trying to mix with a brilliant, cyan color.
 
-[Cerulean Blue Genuine](https://www.dickblick.com/products/grumbacher-pre-tested-artists-oil-colors/?Item=00448-5913) is a cool blue you might use in a sky painting. The one I have is by Grumbacher. It leans more toward geen than Ultramarine Blue. It is quick drying and lightfast.
+## Cerulean Blue Genuine
+![Grumbacher Cerulean Blue Genunine](/assets/images/oilcolors/cerulean-blue.jpg)
+[Cerulean Blue Genuine](https://www.dickblick.com/products/grumbacher-pre-tested-artists-oil-colors/?Item=00448-5913) is a cool blue you might use in a sky painting. The one I have is by Grumbacher. It leans more toward green than Ultramarine Blue. It is quick drying and lightfast.
 
+## Thalo Blue
+![Grumbacher Thalo Blue](/assets/images/oilcolors/thalo-blue.jpg)
 [Thalo Blue](https://www.dickblick.com/products/grumbacher-pre-tested-artists-oil-colors/?Item=00448-5143) by Grumbacher is a pure, clean primary blue with great covering power. Like Cerulean Blue Genuine, I would use it in skies, or where Ultramarine Blue would be too red. 
 
+## Ultramarine Violet
+![M. Graham Ultramarine Violet](/assets/images/oilcolors/ultramarine-violet.jpg)
 [Ultramarine Violet](https://mgraham.com/oil-paints/ultramarine-violet-193-oil-paint/) by M. Graham is a purplish blue that works great for glazing due to its transparent quality. According to M. Graham, it makes great cool greys.
 
+## Sap Green
+![Grumbacher Sap Green](/assets/images/oilcolors/sap-green.jpg)
 [Sap Green](https://www.dickblick.com/products/grumbacher-pre-tested-artists-oil-colors/?Item=00448-7093) by Grumbacher is a yellowish, transparent green. It is very convenient when green is needed, and I sometimes mix it with Ultramarine Blue to get a darker green.
 
+## Chromium Oxide Green
+![M. Graham Chromium Oxide Green](/assets/images/oilcolors/chromium-oxide-green.jpg)
 [Chromium Oxide Green](https://mgraham.com/oil-paints/chromium-oxide-green-086/) is a very opaque earth green by M. Graham. It is strong in mixes. [Layne Johnson](https://laynejohnson.com), someone I watch regularly on YouTube, uses Chromium Oxide Green to paint cactus and grass. M. Graham says it can be mixed with earthy reds for making soft, gentle grays.
 
+## Transparent Yellow Iron Oxide
+![M. Graham Transparent Yellow Iron Oxide](/assets/images/oilcolors/transparent-yellow-iron-oxide.jpg)
 [Transparent Yellow Iron Oxide](https://mgraham.com/oil-paints/transparent-yellow-iron-oxide-188/) by M. Graham is a transparent, golden yellow. It is very lightfast, too. I think it is better for glazing than the more opaque, Yellow Ochre or Cadmium Yellow.
 
+## Yellow Ochre
+![M. Graham Yellow Ochre](/assets/images/oilcolors/yellow-ochre.jpg)
 [Yellow Ochre](https://mgraham.com/oil-paints/yellow-ochre-200-oil-paint/) by M. Graham is a bright, earthen yellow. I like it for its warm, yellow color. I would use it earlier in my paintings than cadmiums which dry slower.
 
+## Transparent Red Iron Oxide
+![M. Graham Transparent Red Iron Oxide](/assets/images/oilcolors/transparent-red-iron-oxide.jpg)
 [Transparent Red Iron Oxide](https://mgraham.com/oil-paints/transparent-red-iron-oxide-187-oil-paint/) is a red, earthy color by M. Graham. It is great for red glazes, and has a soft, creamy texture. M. Graham says it has a smooth, glass-like finish when dry.
 
+## Burnt Umber
+![M. Graham Burnt Umber](/assets/images/oilcolors/burnt-umber.jpg)
 [Burnt Umber](https://mgraham.com/oil-paints/burnt-umber-030-oil-paint/) by M. Graham is a warm, earth brown. It has a semi-opaque quality. I mix it with Ultramarine Blue to make a deep, dark color. A touch of it is good for desaturating a mixture of color.
 
+## Burnt Sienna
+![Grumbacher Burnt Sienna](/assets/images/oilcolors/burnt-sienna.jpg)
 [Burnt Sienna](https://www.dickblick.com/products/grumbacher-pre-tested-artists-oil-colors/?Item=00448-8043) by Grumbacher is a warm, brown color. It has a semi-opaque quality. Like Burnt Umber, it can be mixed with Ultramarine Blue for a dark, black color.
 
+## Ultramarine Blue
+![M. Graham Ultramarine Blue](/assets/images/oilcolors/ultramarine-blue.jpg)
 [Ultramarine Blue](https://mgraham.com/oil-paints/ultramarine-blue-190-oil-paint/) by M. Graham is a reddish blue. It is my go to blue for most of my applications. I even bought a 150ml tube because I use it so much. Ultramarine Blue is great for making dark colors for shadows. It's also transparent so it works great with glazing. M. Graham says it mixes well with Anthraquinone Red for mixing violets.
 
 These are my oil paints that I use. Again, I am transitioning to the M. Graham brand, but I entertain the idea of trying out more [Williamsburg](https://goldenartistcolors.com/products/williamsburg-artist-oil-colors) and [Michael Harding](https://michaelharding.co.uk) paints.
