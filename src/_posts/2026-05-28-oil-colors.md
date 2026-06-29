@@ -100,3 +100,7 @@ Currently, I still use [titanium white soft](https://www.dickblick.com/products/
 These are my oil paints that I use. Again, I am transitioning to the M. Graham brand, but I entertain the idea of trying out more [Williamsburg](https://goldenartistcolors.com/products/williamsburg-artist-oil-colors) and [Michael Harding](https://michaelharding.co.uk) paints.
 
 I don't recommend buying all of the paints I mentioned above. Most of these are convenience colors, but I tried to describe the reason I bought them. A smaller range of colors is best when starting out. Like warm and cool versions of the primary colors.
+
+## Conclusion
+
+I like to experiment with my colors, and I try to have a compelling reason for choosing these colors.
