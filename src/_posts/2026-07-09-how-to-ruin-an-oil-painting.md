@@ -37,7 +37,7 @@ The fat over lean rule keeps your top layers from cracking. The top layers allow
 
 When making your own mediums, you might mix thirty percent oil to seventy percent solvent. Then, for your next layer, you would have a fifty-fifty mix of oil and solvent. For the top layer you might have seventy percent oil and thirty percent solvent. If you use a glazing technique, you might have one hundred percent oil to get the transparent effect. That is why you save glazing for the top.
 
-I have heard that if you use an alkyd medium like [Gamblin Galkyd](https://www.dickblick.com/products/gamblin-galkyd-mediums/) or [Winsor & Newton Liquin Original](https://www.dickblick.com/products/winsor-newton-liquin-original/), it is considered *fat*.
+I have heard that if you use an alkyd medium like [Gamblin Galkyd](https://www.dickblick.com/products/gamblin-galkyd-mediums/) or [Winsor & Newton Liquin Original](https://www.dickblick.com/products/winsor-newton-liquin-original/), are considered *fat*. However, you need to use just twenty-five percent alkyd to your paint mixture. 
 
 ### Varnishing a Painting Too Early
 
