@@ -1,16 +1,114 @@
 /* Hero styles */
 
 .hero {
+    display: flex;
+    align-items: center;
+    min-height: 550px;
+    padding: 4rem 6%;
+    gap: 5rem;
     background: linear-gradient(
-        to bottom,
-        var(--fog-blue-gray),
-        var(--titanium-white)
+        135deg,
+        #17233b 0%,
+        #302d50 59%,
+        #59445a 100%
     );
-    padding: 6rem 2rem;
-    text-align: center;
+    color: white;
+
+    h1 {
+        margin: 0 0 1.25rem;
+        font-size: clamp(3rem, 6vw, 5rem);
+        line-height: 1;
+    }
 }
 
-.hero-inner {
-    max-width: 600px;
-    margin: 0 auto;
+.hero-image {
+    flex: 1.15;
+
+    img {
+        display: block;
+        width: 100%;
+        max-height: 500px;
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+    }
+}
+
+.hero-content {
+    flex: 0.85;
+    max-width: 500px;
+}
+
+.hero-eyebrow {
+    margin: 0 0 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    opacity: 0.75;
+}
+
+.hero-description {
+    margin: 0 0 2rem;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 0.85rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 400;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.hero-button:hover {
+    transform: translateY(-2px);
+}
+
+.hero-button.primary {
+    background-color: white;
+    color: #20253a;
+}
+
+.hero-button.primary:hover {
+    background: #f0f0f0;
+}
+
+.hero-button.secondary {
+    border: 1px solid rgba(255,255,255,0.5);
+    color: white;
+}
+
+.hero-button.secondary:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+@media (max-width: 800px) {
+    .hero {
+        flex-direction: column;
+        min-height: auto;
+        padding: 3rem 1.5rem;
+        gap: 2.5rem;
+    }
+    .hero-image,
+    .hero-content {
+        width: 100%;
+        max-width: none;
+    }
+    .hero-image img {
+        max-height: 400px;
+    }
+    .hero h1 {
+        font-size: 3rem;
+    }
 }

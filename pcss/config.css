@@ -20,12 +20,12 @@
     --button-bg: var(--cobalt-teal);
     --button-hover: var(--yellow-oxide);
     --card-bg: var(--granite-neutral);
-    --footer-bg: var(--burnt-umber);
+    --footer-bg: var(--ultramarine-blue);
     /* Layout */
     --max-width: 900px;
     --radius: 8px;
     --shadow: 0 4px 12px rgba(0,0,0,0.08);
     /* Typography */
-    --font-body: "Jost", sans-serif;
-    --font-heading: "Cormorant Garamond", serif;
+    --font-body: "Montserrat", sans-serif;
+    --font-heading: "Caveat", cursive;
 }

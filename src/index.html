@@ -10,70 +10,65 @@ title: Home
     {% seo %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="/assets/styles/style.css">
     <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
 </head>
 <body>
     {% include header.html %}
-    <header class="hero">
-        <div class="hero-inner">
-            <h2>Jared’s Art Blog</h2>
-            <p>Oil paintings, Watercolor, and photography. </p>
-            <a href="/gallery" class="button">View the Gallery</a>
-        </div>
-    </header>
 
-    <section class="intro">
-        <div class="container">
-            <h2>Hi, I'm Jared.</h2>
-            <p>I am an artist. I paint and photograph the many things that inspire me, and I want to share my knowledge with you.
-            </p>
-            <a href="/about" class="button secondary">About Me</a>
-        </div>
-    </section>
-    <section class="featured">
-        <div class="container feature-grid">
-            <div class="featured-image">
-                <!--Painting Image-->
-                <img src="/assets/images/gallery/ocean_wave_scaled.jpg" alt="Featured painting">
-            </div>
-            <div class="featured-info">
-                <h2>Ocean Wave</h2>
-                <p><strong>Medium:</strong> Oil on canvas<br>
-                <strong>Size:</strong> 24x18<br>
-                <strong>Year:</strong> 2026
-                </p>
-                <p>I loved the energy in this rolling wave.</p>
-                <a href="/gallery" class="button">View Full Gallery</a>
-            </div>
-        </div>
-    </section>
+<section class="hero">
+    <div class="hero-image">
+        <img src="/assets/images/gallery/ocean_wave_scaled.jpg"Oil painting by Jared Perkins">
+    </div>
 
-    <!--Blog preview-->
-    <section class="blog-preview">
-        <div class="container">
-            <h2>Latest Posts</h2>
-            <div class="grid">
-                {% for post in site.posts limit:3 %}
-                <article class="post-card">
-                    {% if post.thumbnail %}
-                    <img src="{{ post.thumbnail }}" alt="{{ post.title }}">
-                    {% endif %}
-                    <h3>{{ post.title }}</h3>
-                    {% if post.description %}
-                    <p>{{ post.description | strip_html | truncate: 140 }}</p>
-                    {% else %}
-                    <p>{{ post.content | strip_html | truncate: 140 }}</p>
-                    {% endif %}
-                    <a href="{{ post.url }}">Read more</a>
-                </article>
-                {% endfor %}
-            </div>
-            <a href="/blog" class="button secondary">View All Posts</a>
+    <div class="hero-content">
+        <p class="hero-eyebrow">Painter &amp; Photographer</p>
+
+        <h1>Jared Perkins</h1>
+
+        <p class="hero-description">
+            Original oil paintings, artwork, and thoughts from the studio.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="/gallery/" class="hero-button primary">View Gallery</a>
+            <a href="/blog/" class="hero-button secondary">Read the Blog</a>
         </div>
-    </section>
+    </div>
+</section>
+
+    <section class="latest-posts">
+    <div class="latest-posts-header">
+        <p class="section-eyebrow">From the Blog</p>
+        <h2>Latest Posts</h2>
+    </div>
+    <div class="post-grid">
+        {% for post in site.posts limit:3 %}
+            <article class="post-card">
+                {% if post.thumbnail %}
+                    <a href="{{ post.url }}">
+                        <img src="{{ post.thumbnail }}" alt="{{ post.title }}">
+                    </a>
+                {% endif %}
+
+                <div class="post-card-content">
+                    <p class="post-date">
+                        {{ post.date | date: "%B %d, %Y" }}
+                    </p>
+                    <h3>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </h3>
+                    {% if post.data.description %}
+                        <p>{{ post.description }}</p>
+                    {% endif %}
+                    <a href="{{ post.url }}" class="read-more">Read more → </a>
+                </div>
+            </article>
+        {% endfor %}
+    </div>
+</section>
 
     <footer>
         <div class="container footer-grid">
