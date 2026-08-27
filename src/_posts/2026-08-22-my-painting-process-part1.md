@@ -27,7 +27,7 @@ I start drawing the image on my canvas. I draw the shape of my subject using the
 
 I erased the grid lines when I was done. Sometimes they show through on the first layer.
 
-Sometimes I do an imprimatura, a first layer of very thin paint with the color burnt sienna. To do so, you would mix burnt sienna with a lot of solvent. I use [Gamsol](https://gamblincolors.com/oil-painting/gamsol/). People make an imprimatura because they find it easier to judge colors on a non-white canvas.
+Sometimes I do an imprimatura, a first layer of very thin paint with the color burnt sienna. To do so, you would mix burnt sienna with a lot of solvent. I use [Gamsol](https://gamblincolors.com/oil-painting/gamsol/). Artists make an imprimatura because they find it easier to judge colors on a non-white canvas, and you can work both dark and light. On a white canvas, you need to start from the dark values.
 
 I was taught not to do an imprimatura. It's just not part of Peggy's process. I decided not to do one on this painting.
 
