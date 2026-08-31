@@ -50,3 +50,9 @@ Then, I started to put paint on the canvas.
 The goal of the first layer is just to cover the canvas. I will worry about getting the colors correct later.
 
 I painted the boat a light gray color. The coat was painted green, and her shirt is a pale orange color. Her pants were colored black, and I made her pants slimmer than I originally sketched.
+
+![block in done](/assets/images/painting-process-p2/step-three.jpg)
+
+Now that the canvas is covered with the first layer of paint, I will start getting the colors and values more accurate. I will start with the sky because I work top to bottom and background to foreground. I want to add some wispy clouds, too. 
+
+So, be sure to read part three.
