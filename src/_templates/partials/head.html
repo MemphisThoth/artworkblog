@@ -1,0 +1,22 @@
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% if title %}{{ title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <meta name="description" content="{{ description | default: site.description }}">
+
+    <link rel="canonical" href="{{ page.url | absoluteUrl }}">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{% if title %}{{ title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{{ description | default: site.description }}">
+    <meta property="og:url" content="{{ page.url | absoluteUrl }}">
+
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+</head>

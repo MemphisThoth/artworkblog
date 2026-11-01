@@ -8,4 +8,6 @@ full: /assets/images/gallery/acadia.jpg
 description: On the coast of Acadia National Park
 type: Study
 source: "Image found on the Internet"
+tags: paintings
+permalink: false
 ---

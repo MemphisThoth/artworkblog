@@ -8,4 +8,6 @@ full: /assets/images/gallery/snowman_scaled.jpg
 description: My wife loved the blues in this picture.
 type: Study
 source: "Based on another photograph."
+tags: paintings
+permalink: false
 ---

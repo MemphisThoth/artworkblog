@@ -1,0 +1,17 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for item in collections.all %}
+{%- if item.url %}
+{%- unless item.data.tags contains "paintings" or item.url == "/404.html" or item.url == "/success/" or item.url == "/google66739705c82e4bdc/" or item.url == "/acadia/" %}
+  <url>
+    <loc>{{ item.url | absoluteUrl }}</loc>
+  </url>
+{%- endunless %}
+{%- endif %}
+{%- endfor %}
+</urlset>

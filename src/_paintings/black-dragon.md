@@ -8,4 +8,6 @@ full: /assets/images/gallery/black-dragon.jpg
 description: A knight battling with a black dragon
 type: Study
 source: "Image found on the Internet"
+tags: paintings
+permalink: false
 ---

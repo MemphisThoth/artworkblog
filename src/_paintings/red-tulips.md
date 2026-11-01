@@ -8,4 +8,6 @@ full: /assets/images/gallery/red-tulips.jpg
 description: Red Tulips on a dark background
 type: Study
 source: "Image found on the Internet"
+tags: paintings
+permalink: false
 ---

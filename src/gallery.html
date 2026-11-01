@@ -1,35 +1,26 @@
 ---
 title: Gallery
 ---
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% seo %}
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
-    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
-    <link rel="stylesheet" href="/assets/styles/style.css">
-</head>
+{% include "partials/head.html" %}
 <body>
-{% include header.html %}
+{% include "partials/header.html" %}
 <div class="container">
 <section class="gallery">
 <div class="gallery-grid">
-  {% for painting in site.paintings %}
+  {% for painting in collections.paintings %}
     <div class="gallery-item">
-      <img 
-        src="{{ painting.thumbnail }}" 
-        data-full="{{ painting.full }}"
-        alt="{{ painting.title }}"
+      <img
+        src="{{ painting.data.thumbnail }}"
+        data-full="{{ painting.data.full }}"
+        alt="{{ painting.data.title }}"
         class="lightbox-trigger"
       >
-      <p class="caption">{{ painting.title }}<br>{{ painting.size}} {{ painting.medium }}<br>
-        {{ painting.year }}<br>
-      {{ painting.type }} - {{ painting.source }}<br>{{ painting.description }}
+      <p class="caption">{{ painting.data.title }}<br>{{ painting.data.size }} {{ painting.data.medium }}<br>
+        {{ painting.data.year }}<br>
+      {{ painting.data.type }} - {{ painting.data.source }}<br>{{ painting.data.description }}
       </p>
     </div>
   {% endfor %}
@@ -45,7 +36,7 @@ title: Gallery
     <span class="prev">&#10094;</span>
     <span class="next">&#10095;</span>
 </div>
-{% include footer.html %}
+{% include "partials/footer.html" %}
 <script src="/assets/scripts/lightbox.js"></script>
 <script src="/assets/scripts/navtoggle.js"></script>
 </body>

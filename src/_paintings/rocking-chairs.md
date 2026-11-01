@@ -8,4 +8,6 @@ full: /assets/images/gallery/rocking_chairs_scaled.jpg
 description: I feel like I can just sit there with my wife.
 type: Study
 source: "Based on another photograph"
+tags: paintings
+permalink: false
 ---

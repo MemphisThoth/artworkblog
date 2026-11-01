@@ -8,4 +8,6 @@ full: /assets/images/gallery/dragon.jpg
 description: My first painting. A dragon on a cliff.
 type: Study
 source: "Image found on the Internet"
+tags: paintings
+permalink: false
 ---

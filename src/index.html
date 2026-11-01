@@ -4,23 +4,13 @@ title: Home
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% seo %}
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="/assets/styles/style.css">
-    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
-</head>
+{% include "partials/head.html" %}
 <body>
-    {% include header.html %}
+    {% include "partials/header.html" %}
 
 <section class="hero">
     <div class="hero-image">
-        <img src="/assets/images/gallery/ocean_wave_scaled.jpg"Oil painting by Jared Perkins">
+        <img src="/assets/images/gallery/ocean_wave_scaled.jpg" alt="Oil painting by Jared Perkins">
     </div>
 
     <div class="hero-content">
@@ -39,17 +29,22 @@ title: Home
     </div>
 </section>
 
-    <section class="latest-posts">
+<section class="latest-posts">
     <div class="latest-posts-header">
         <p class="section-eyebrow">From the Blog</p>
         <h2>Latest Posts</h2>
     </div>
+
+
     <div class="post-grid">
-        {% for post in site.posts limit:3 %}
+        {% assign sorted_posts = collections.posts | sort: "date" | reverse %}
+
+        {% for post in sorted_posts limit:3 %}
             <article class="post-card">
-                {% if post.thumbnail %}
+
+                {% if post.data.thumbnail %}
                     <a href="{{ post.url }}">
-                        <img src="{{ post.thumbnail }}" alt="{{ post.title }}">
+                        <img src="{{ post.data.thumbnail }}" alt="{{ post.data.title }}">
                     </a>
                 {% endif %}
 
@@ -57,40 +52,46 @@ title: Home
                     <p class="post-date">
                         {{ post.date | date: "%B %d, %Y" }}
                     </p>
+
                     <h3>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
+                        <a href="{{ post.url }}">{{ post.data.title }}</a>
                     </h3>
+
                     {% if post.data.description %}
-                        <p>{{ post.description }}</p>
+                        <p>{{ post.data.description }}</p>
                     {% endif %}
-                    <a href="{{ post.url }}" class="read-more">Read more → </a>
+
+                    <a href="{{ post.url }}" class="read-more">Read more →</a>
                 </div>
+
             </article>
         {% endfor %}
     </div>
+    </div>
 </section>
 
-    <footer>
-        <div class="container footer-grid">
-            <div>
-                <h4>About</h4>
-                <a href="/about">About</a>
-            </div>
-            <div>
-                <h4>Gallery</h4>
-                <a href="/gallery">Paintings</a>
-            </div>
-            <div>
-                <h4>Blog</h4>
-                <a href="/blog">All Posts</a>
-            </div>
-            <div>
-                <h4>Contact</h4>
-                <a href="/contact">Email Me</a>
-            </div>
+<footer>
+    <div class="container footer-grid">
+        <div>
+            <h4>About</h4>
+            <a href="/about">About</a>
         </div>
-        <p class="copyright">&copy; Jared Perkins - All artwork and writng &copy; their respective years</p>
-    </footer>
-    <script src="/assets/scripts/navtoggle.js"></script>
+        <div>
+            <h4>Gallery</h4>
+            <a href="/gallery">Paintings</a>
+        </div>
+        <div>
+            <h4>Blog</h4>
+            <a href="/blog">All Posts</a>
+        </div>
+        <div>
+            <h4>Contact</h4>
+            <a href="/contact">Email Me</a>
+        </div>
+    </div>
+    <p class="copyright">&copy; Jared Perkins - All artwork and writing &copy; their respective years</p>
+</footer>
+
+<script src="/assets/scripts/navtoggle.js"></script>
 </body>
 </html>

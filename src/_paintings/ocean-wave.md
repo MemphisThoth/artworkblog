@@ -8,4 +8,6 @@ full: /assets/images/gallery/ocean_wave_scaled.jpg
 description: A powerful, rolling ocean wave.
 type: Study
 source: "Based on a photograph by Emiliano Arano"
+tags: paintings
+permalink: false
 ---
